@@ -21,7 +21,6 @@ public class SendEmail {
 
 			if (bool) {
 				LOGGER.info("Email Sent successfully!!!");
-				LOGGER.info("Test Message from branch!!!");
 			} else {
 				LOGGER.error("Email sending failed!!!");
 			}
